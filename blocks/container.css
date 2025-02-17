@@ -1,0 +1,17 @@
+.container {
+  --padding: 0px;
+  width: min(984px, 100% - var(--padding));
+  margin: auto;
+}
+
+@media (width <= 1025px) {
+  .container {
+    --padding: 48px; /* 24px each side */
+  }
+}
+
+@media (width <= 544px) {
+  .container {
+    --padding: 24px; /* 12px each side */
+  }
+}

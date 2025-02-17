@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Henry Olivares" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Explora la Galería de Arte TripleTen, un espacio que celebra la diversidad cultural a través de historias y fotografías de profesionales de todo el mundo. Únete y comparte tu propia historia y arte visual."
+    />
+
     <meta
       name="keywords"
       content="HTML, CSS, tripleten, bootcamp, art gallery"
     />
     <title>TRIPLETEN ART GALLERY</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
-          <img
-            src="./images/logo.svg"
-            alt="logo de la galleria tripleten"
-            class="logo nav__logo"
-          />
-        </nav>
-        <h1 class="header__title">De patria a patria</h1>
-        <p class="header__subtitle">
-          Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
-        </p>
+        <div class="container">
+          <nav class="nav">
+            <img
+              src="./images/logo.svg"
+              alt="logo de la galleria tripleten"
+              class="logo nav__logo"
+            />
+          </nav>
+          <h1 class="header__title">De patria a <br />patria</h1>
+          <p class="header__subtitle">
+            Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+          </p>
+        </div>
         <picture>
           <source
             srcset="./images/kalegin-michail-desktop.jpg"
@@ -42,35 +49,37 @@
           />
         </picture>
       </header>
-      <main class="main">
-        <section class="places">
-          <h2 class="places__title">
-            Conoce un poco mejor los lugares de los que proceden tus colegas en
-            línea
-          </h2>
-          <blockquote class="places__quote">
-            Todo ser humano es un artista, un ser de la libertad, llamado a
-            participar en la transformación y reforma de las condiciones, el
-            pensamiento y las estructuras que conforman e influyen en nuestras
-            vidas.
-            <cite class="places__cite">— Joseph Beuys</cite>
-          </blockquote>
-          <p class="places__paragraph">
-            La ciudad de TripleTen ha reunido a profesionales de diferentes
-            rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
-            de presentar historias y fotografías de algunas de las personas que
-            dedican su tiempo y esfuerzo a hacer que los futuros profesionales
-            de la tecnología de esta ciudad se sientan como en casa. Cada uno de
-            nosotros tiene una historia única sobre el lugar del que procede. No
-            dudes en añadir a nuestra colección tu propia historia y una obra de
-            arte visual dedicada a tu ciudad natal. No importa de dónde seas,
-            nos alegra que seas nuestro vecino.
-          </p>
-        </section>
-      </main>
-      <footer class="footer">
-        <p class="footer__copy">&copy; Henry Olivares</p>
-      </footer>
+      <div class="container">
+        <main class="main">
+          <section class="places">
+            <h2 class="places__title">
+              Conoce un poco mejor los lugares de los que proceden tus colegas
+              en línea
+            </h2>
+            <blockquote class="places__quote">
+              Todo ser humano es un artista, un ser de la libertad, llamado a
+              participar en la transformación y reforma de las condiciones, el
+              pensamiento y las estructuras que conforman e influyen en nuestras
+              vidas.
+              <cite class="places__cite">— Joseph Beuys</cite>
+            </blockquote>
+            <p class="places__paragraph">
+              La ciudad de TripleTen ha reunido a profesionales de diferentes
+              rincones del mundo. Hoy, la Galería de Arte TripleTen se
+              enorgullece de presentar historias y fotografías de algunas de las
+              personas que dedican su tiempo y esfuerzo a hacer que los futuros
+              profesionales de la tecnología de esta ciudad se sientan como en
+              casa. Cada uno de nosotros tiene una historia única sobre el lugar
+              del que procede. No dudes en añadir a nuestra colección tu propia
+              historia y una obra de arte visual dedicada a tu ciudad natal. No
+              importa de dónde seas, nos alegra que seas nuestro vecino.
+            </p>
+          </section>
+        </main>
+        <footer class="footer">
+          <p class="footer__copy">&copy; 2025. Henry Olivares</p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>

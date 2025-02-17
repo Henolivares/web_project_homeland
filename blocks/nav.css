@@ -1,0 +1,18 @@
+.nav__logo {
+  --padding-top: 34px;
+  padding-top: var(--padding-top);
+  display: block;
+  margin: auto;
+}
+
+@media screen and (width <= 768px) {
+  .nav__logo {
+    --padding-top: 30px;
+  }
+}
+
+@media screen and (width <= 320px) {
+  .nav__logo {
+    --padding-top: 20px;
+  }
+}

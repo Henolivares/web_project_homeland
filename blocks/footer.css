@@ -1,0 +1,23 @@
+.footer {
+  --padding-top: 92px;
+  padding: var(--padding-top) 0 24px;
+  text-align: center;
+}
+
+.footer__copy {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+@media (width <= 768px) {
+  .footer {
+    --padding-top: 88px;
+  }
+}
+
+@media (width <= 544px) {
+  .footer {
+    --padding-top: 64px;
+  }
+}
