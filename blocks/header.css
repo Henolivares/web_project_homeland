@@ -19,6 +19,10 @@
   font-weight: 900;
 }
 
+.header__span {
+  display: block;
+}
+
 .header__subtitle {
   max-width: 720px;
   text-align: center;
