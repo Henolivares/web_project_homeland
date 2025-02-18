@@ -1,24 +1,26 @@
 .places {
-  --margin-top: 92px;
-  margin-top: var(--margin-top);
+  --mt-places: 92px;
+  margin-top: var(--mt-places);
   max-width: 830px;
+
+  --fs-title: 54px;
+
+  --lh-quote: 1.4;
 }
 
 .places__title {
-  --font-size: 54px;
   margin: 0;
-  font-size: var(--font-size);
+  font-size: var(--fs-title);
   font-weight: 900;
   line-height: 1;
 }
 
 .places__quote {
-  margin: 40px 0 0 0;
-  --line-height: 1.4;
-  font-size: 24px;
-  line-height: var(--line-height);
   display: flex;
   flex-direction: column;
+  margin: 40px 0 0 0;
+  font-size: 24px;
+  line-height: var(--lh-quote);
 }
 
 .places__cite {
@@ -28,24 +30,21 @@
 }
 
 .places__paragraph {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 @media (width <= 768px) {
   .places {
-    --margin-top: 45px;
-  }
-  .places__title {
-    --font-size: 45px;
+    --fs-title: 45px;
   }
 }
 
-@media (width <= 544px) {
+@media (width <= 320px) {
   .places {
-    --margin-top: 32px;
-    --line-height: 1.25;
-  }
-  .places__title {
-    --font-size: 32px;
+    --mt-places: 64px;
+
+    --fs-title: 32px;
+
+    --lh-quote: 1.25;
   }
 }

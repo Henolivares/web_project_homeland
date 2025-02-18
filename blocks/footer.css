@@ -1,6 +1,6 @@
 .footer {
-  --padding-top: 92px;
-  padding: var(--padding-top) 0 24px;
+  --pt-footer: 92px;
+  padding: var(--pt-footer) 0 24px;
   text-align: center;
 }
 
@@ -12,12 +12,12 @@
 
 @media (width <= 768px) {
   .footer {
-    --padding-top: 88px;
+    --pt-footer: 88px;
   }
 }
 
-@media (width <= 544px) {
+@media (width <= 320px) {
   .footer {
-    --padding-top: 64px;
+    --pt-footer: 64px;
   }
 }
