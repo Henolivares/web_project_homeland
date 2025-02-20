@@ -1,6 +1,6 @@
-.places {
-  --mt-places: 92px;
-  margin-top: var(--mt-places);
+.intro {
+  --mt-intro: 92px;
+  margin-top: var(--mt-intro);
   max-width: 830px;
 
   --fs-title: 54px;
@@ -8,14 +8,14 @@
   --lh-quote: 1.4;
 }
 
-.places__title {
+.intro__title {
   margin: 0;
   font-size: var(--fs-title);
   font-weight: 900;
   line-height: 1;
 }
 
-.places__quote {
+.intro__quote {
   display: flex;
   flex-direction: column;
   margin: 40px 0 0 0;
@@ -23,25 +23,25 @@
   line-height: var(--lh-quote);
 }
 
-.places__cite {
+.intro__cite {
   margin-top: 10px;
   display: block;
   margin-left: auto;
 }
 
-.places__paragraph {
+.intro__paragraph {
   margin-top: 32px;
 }
 
 @media (width <= 768px) {
-  .places {
+  .intro {
     --fs-title: 45px;
   }
 }
 
 @media (width <= 320px) {
-  .places {
-    --mt-places: 64px;
+  .intro {
+    --mt-intro: 64px;
 
     --fs-title: 32px;
 
